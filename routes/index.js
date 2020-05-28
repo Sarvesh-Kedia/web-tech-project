@@ -115,7 +115,7 @@ router.get('/home/getrecs', jsonParser, (req, res) => {
 
   var recs = []
 
-  coursenmae = req.query.data
+  coursename = req.query.data
   console.log("recommend courses base on ", coursename)
 
 
